@@ -13,7 +13,7 @@ int main (void)
     {
         printf("%d is positive\n", n);
     }
-    else (n == 0)
+    else if (n == 0)
     {
         printf("%d is null\n", n);
     }
@@ -21,6 +21,6 @@ int main (void)
     {
         printf("%d is negative\n", n);
     }
-    returne (0);
+    return (0);
 
 }
